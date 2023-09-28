@@ -36,7 +36,7 @@ export default function Contact() {
         <p className="text-gray-700 -mt-6 dark:text-white/80">
             Please contact me directly at{" "}  
         <a className="underline" 
-        href="mailto:example@gmail.com">example@gmail.com</a>{" "}
+        href="mailto:jonathan.gonzales64600@gmail.com">jonathan.gonzales64600@gmail.com</a>{" "}
         or through this form.</p>
 
         <form 
@@ -63,7 +63,7 @@ export default function Contact() {
             maxLength={500}
             placeholder="Your email" />
             <textarea 
-            className="h-52 my-3 rounded-lg borderBlack p-4
+            className="h-52 my-3 rounded-lg border border-black/10 p-4
             dark:bg-white dark:bg-opacity-80
             dark:focus:bg-opacity-100 transition-all
             dark:outline-none"

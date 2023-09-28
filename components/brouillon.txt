@@ -1,0 +1,87 @@
+Après avoir obtenu un diplôme en comptabilité , j'ai décidé de poursuivre 
+ma passion pour la programmation. 
+Je me suis inscrit à un bootcamp 
+de codage 
+et j'ai appris le développement Web full-stack . Ce que je préfère 
+dans la programmation, 
+c'est l'aspect résolution de problèmes. J’aime le sentiment de trouver 
+enfin une solution 
+à un problème. Ma pile principale est React, Next.js, Node.js et 
+MongoDB . Je connais également 
+TypeScript et Prisma. Je cherche toujours à apprendre de nouvelles 
+technologies. Je suis actuellement 
+à la recherche d'un poste à temps plein en tant que développeur de 
+logiciels.
+
+Quand je ne code pas , j'aime jouer à des jeux vidéo, regarder des 
+films et jouer avec mon chien. 
+J'aime aussi apprendre de nouvelles choses . J'apprends actuellement 
+l'histoire et la philosophie . 
+J'apprends également à jouer de la guitare.
+
+
+Après avoir passé 15 ans dans la restauration , j'ai décidé de me 
+lancer un nouveau challenge et de devenir développeur web.
+Je me suis inscrit dans plusieurs cours sur la platforme udemy
+et j'ai appris le développement Web full-stack .
+
+
+Ayant commencé mon apprentissage en Back-end avec le language Python et
+son framework Django, j'ai commencé à m'intérressé de plus en plus au
+Front-end via JavaScript. J'ai donc voulu aller plus loin en apprenant
+aussi TailwindCss, TypeScript, Vue.js, React et Next.js.
+
+
+Ce que je préfère 
+dans la programmation, 
+c'est l'aspect résolution de problèmes. J’aime le sentiment de trouver 
+enfin une solution 
+à un problème.
+Je suis actuellement à la recherche de missions et comme dans mon métier
+précédent de pouvoir répondre au mieux aux attentes de mes clients.
+
+Quand je ne code pas , j'aime regarder des films et séries (Team Marvel).
+J'aime aussi sortir voir mes amis et voyager pour découvrir de nouvelles 
+culturs et rencontrer de nouvelles personnes.
+
+
+
+
+Après avoir passé 15 ans dans la restauration, j'ai décidé de me lancer dans 
+un nouveau défi et de devenir développeur web. Je me suis inscrit à plusieurs 
+cours sur la plateforme Udemy et j'ai appris le développement web full-stack.
+
+Ayant commencé mon apprentissage en Back-end avec le langage Python et son 
+framework Django, j'ai commencé à m'intéresser de plus en plus au front-end 
+via JavaScript. J'ai donc voulu aller plus loin en apprenant aussi Tailwind CSS, 
+TypeScript, Vue.js, React et Next.js.
+
+Ce que je préfère dans la programmation, 
+c'est l'aspect résolution de problèmes. J'aime le sentiment de trouver enfin une 
+solution à un problème. Je suis actuellement à la recherche de missions et, comme 
+dans mon métier précédent, je veux pouvoir répondre au mieux aux attentes de mes 
+clients.
+
+Quand je ne code pas, j'aime regarder des films et des séries (Team Marvel). 
+J'aime aussi sortir voir mes amis et voyager pour découvrir de nouvelles cultures 
+et rencontrer de nouvelles personnes.
+
+
+
+
+<p className="mb-3">
+    After spending 15 years in the <span className="font-medium">Restaurant</span> industry,
+    I decided to embark on a new challenge and become a web developer. I enrolled in several courses on the
+    <span className="font-medium">Udemy</span> platform and learned
+    <span className="font-medium">full-stack web development</span>. <span className="italic">What I love most about programming</span> is problem-solving.
+    <span className="underline">I enjoy</span> the feeling of finally finding a solution to a problem. I primarily use
+    <span className="font-medium">
+        React, Next.js, and Tailwind CSS
+    </span>. I also have experience with Typescript, Python, Django. I'm always eager to learn new technologies. Currently, I'm on the lookout for
+    <span className="font-medium">projects</span> and, just like in my previous profession, I aim to meet my clients' expectations to the best of my abilities.
+</p>
+<p>
+    <span className="italic">When I'm not coding</span>, I enjoy watching movies and TV series (Team Marvel). I also like going out with my friends and
+    <span className="font-medium">traveling</span>
+    to explore new cultures and meet new people.
+</p>
