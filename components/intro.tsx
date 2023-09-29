@@ -28,12 +28,12 @@ export default function Intro() {
                   type: "tween",
                   duration: 0.2,
                 }}>
-                <Image src="/profil.png" alt="Portrait"
+                <Image src="/profil4.png" alt="Portrait"
                         width={1500}
                         height={1500}
                         quality={95}
                         priority={true}
-                        className="object-cover rounded-full" 
+                        className="object-cover rounded-full border-[0.35rem] border-white shadow-xl" 
                 />
               </motion.div>
             </div>

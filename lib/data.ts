@@ -68,6 +68,7 @@ export const projectsData = [
       "Site vitrine pour un salon de massage",
     tags: ["React", "Next.js", "Tailwind", "FramerMotion"],
     imageUrl: welina,
+    url: "https://app-welina.vercel.app/",
   },
   {
     title: "rmtDev",
@@ -75,6 +76,7 @@ export const projectsData = [
       "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
     tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
     imageUrl: rmtdevImg,
+    url: "https://www.google.com",
   },
   {
     title: "Word Analytics",
@@ -82,6 +84,7 @@ export const projectsData = [
       "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
     tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
     imageUrl: wordanalyticsImg,
+    url: "https://app-welina.vercel.app/",
   },
 ] as const;
 

@@ -8,7 +8,7 @@ import { projectsData } from "@/lib/data"
 
 type ProjectProps = (typeof projectsData)[number];
 
-export default function Project({ title, description, tags, imageUrl}: ProjectProps) {
+export default function Project({ title, description, tags, imageUrl, url}: ProjectProps) {
     const ref = useRef<HTMLDivElement>(null);
     const { scrollYProgress } = useScroll({
         target: ref,
@@ -25,6 +25,7 @@ export default function Project({ title, description, tags, imageUrl}: ProjectPr
             opacity: opacityProgress,
         }}
         className="group mb-3 sm:mb-8 last:mb-0" > 
+        <a href={url} target="_blank" rel="noopener noreferrer">
             <section 
                 className="bg-gray-100 max-w-[42rem]
                                 border border-black/5
@@ -70,6 +71,7 @@ export default function Project({ title, description, tags, imageUrl}: ProjectPr
                             group-even:right-[initial]
                             group-even:-left-40"/>
             </section>
+        </a>
     </motion.div>
     );
 }
