@@ -21,7 +21,7 @@ export default function About() {
         id="about"
         >
         <SectionHeading>About me</SectionHeading>
-        <p className="mb-3">
+        <p className="mb-3 font-bold">
             After spending 15 years in the{" "}
             <span className="font-medium">Restaurant</span> industry, I decided to embark on a 
             new challenge and become a web developer. I enrolled in several courses on the{" "}
