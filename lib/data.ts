@@ -6,6 +6,7 @@ import corpcommentImg from "@/public/corpcomment.png";
 import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
 import welina from "@/public/welina2.png";
+import pizza from "@/public/PizzaMama.png";
 
 export const links = [
   {
@@ -65,27 +66,27 @@ export const projectsData = [
   {
     title: "Welina massages",
     description:
-      "Site vitrine pour un salon de massage",
+      "Site for a massage institute",
     tags: ["React", "Next.js", "Tailwind", "FramerMotion"],
     imageUrl: welina,
     url: "https://app-welina.vercel.app/",
   },
   {
-    title: "rmtDev",
+    title: "Food",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
-    url: "https://www.google.com",
+      "Exemple of site for fast food restaurant",
+    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux Toolkit", "FramerMotion"],
+    imageUrl: pizza,
+    url: "https://pepe-test-five.vercel.app/",
   },
-  {
-    title: "Word Analytics",
-    description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
-    url: "https://app-welina.vercel.app/",
-  },
+  // {
+  //   title: "Word Analytics",
+  //   description:
+  //     "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
+  //   tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+  //   imageUrl: wordanalyticsImg,
+  //   url: "https://app-welina.vercel.app/",
+  // },
 ] as const;
 
 export const skillsData = [
