@@ -7,6 +7,20 @@ import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
 import welina from "@/public/welina2.png";
 import pizza from "@/public/PizzaMama.png";
+import guylaine from "@/public/guylaine-app.png";
+
+import html from "@/public/html.png";
+import css from "@/public/css.png";
+import tailwind from "@/public/tailwind.png";
+import javascript from "@/public/javascript.png";
+import typescript from "@/public/typescript.png";
+import react from "@/public/react.png";
+import nextjs from "@/public/next-js.png";
+import redux from "@/public/redux.png";
+import prisma from "@/public/prisma.png";
+import framer from "@/public/framer.png";
+import python from "@/public/python.png";
+import django from "@/public/django.png";
 
 export const links = [
   {
@@ -67,7 +81,7 @@ export const projectsData = [
     title: "Welina massages",
     description:
       "Site for a massage institute",
-    tags: ["React", "Next.js", "Tailwind", "FramerMotion"],
+    tags: ["React", "Next.js", "TypeScript", "Tailwind", "FramerMotion"],
     imageUrl: welina,
     url: "https://app-welina.vercel.app/",
   },
@@ -79,26 +93,76 @@ export const projectsData = [
     imageUrl: pizza,
     url: "https://pepe-test-five.vercel.app/",
   },
-  // {
-  //   title: "Word Analytics",
-  //   description:
-  //     "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-  //   tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-  //   imageUrl: wordanalyticsImg,
-  //   url: "https://app-welina.vercel.app/",
-  // },
+  {
+    title: "Guylaine Shiatsu",
+    description:
+      "Website for my client Guylaine, who does Reflexology, Chi Nei Tsang and Shiatsu.",
+    tags: ["React", "Next.js", "TypeScript", "Tailwind", "FramerMotion"],
+    imageUrl: guylaine,
+    url: "https://guylaine-app.vercel.app/",
+  },
 ] as const;
 
+// export const skillsData = [
+//   "HTML",
+//   "CSS",
+//   "JavaScript",
+//   "TypeScript",
+//   "React",
+//   "Next.js",
+//   "Tailwind",
+//   "Redux",
+//   "Python",
+//   "Django",
+//   "Framer Motion",
+// ] as const;
 export const skillsData = [
-  "HTML",
-  "CSS",
-  "JavaScript",
-  "TypeScript",
-  "React",
-  "Next.js",
-  "Tailwind",
-  "Redux",
-  "Python",
-  "Django",
-  "Framer Motion",
+  {
+    title : "HTML",
+    imageUrl: html,
+  },
+  {
+    title : "CSS",
+    imageUrl: css,
+  },
+  {
+    title : "JavaScript",
+    imageUrl: javascript,
+  },
+  {
+    title : "TypeScript",
+    imageUrl: typescript,
+  },
+  {
+    title : "React.js",
+    imageUrl: react,
+  },
+  {
+    title : "Next.js",
+    imageUrl: nextjs,
+  },
+  {
+    title : "Tailwind",
+    imageUrl: tailwind,
+  },
+  {
+    title : "Redux",
+    imageUrl: redux,
+  },
+  {
+    title : "Python",
+    imageUrl: python,
+  },
+  {
+    title : "Django",
+    imageUrl: django,
+  },
+  {
+    title : "Framer Motion",
+    imageUrl: framer,
+  },
+  {
+    title : "Prisma",
+    imageUrl: prisma,
+  },
 ] as const;

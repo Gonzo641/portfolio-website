@@ -1,11 +1,12 @@
 "use client";
 
 import React from "react"
+import { motion } from "framer-motion";
+import Image from "next/image";
+
 import SectionHeading from "./section-heading"
 import { skillsData } from "@/lib/data"
 import { useSectionInView } from "@/lib/hooks";
-import { motion } from "framer-motion";
-
 
 const fadeInAnimationVariants = {
     initial: {
@@ -29,7 +30,7 @@ export default function Skills() {
     <section ref={ref} id="skills" className="mb-28 max-w-[53rem]
     scroll-mt-28 text-center sm:mb-40">
         <SectionHeading>My skills</SectionHeading>
-        <ul className="flex flex-wrap justify-center
+        <ul className="flex flex-wrap justify-center items-center
         gap-2 text-lg text-gray-800">
             {skillsData.map((skill, index) => (
                 <motion.li className="bg-white borderBlack
@@ -42,7 +43,15 @@ export default function Skills() {
                     once: true,
                   }}
                 custom={index}
-                >{skill}
+                >
+                  <Image 
+                  src={skill.imageUrl}
+                  alt="image"
+                  width={20}
+                  height={20}
+                  className="mx-auto"
+                  />
+                  {skill.title}
                 </motion.li>
             ))}
         </ul>

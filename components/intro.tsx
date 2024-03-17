@@ -286,7 +286,7 @@ export default function Intro() {
                   type: "tween",
                   duration: 0.2,
                 }}>
-                <Image src="/profil44.png" alt="Portrait"
+                <Image src="/profil4.png" alt="Portrait"
                         width={400}
                         height={400}
                         quality={95}
