@@ -262,7 +262,7 @@ import { useInView } from 'react-intersection-observer';
 
 const phrases = [
   "Hello, I'm Jonathan.",
-  "I'm a front-end developer with 2 years",
+  "I'm a front-end developer with 3< years",
   "of experience. I enjoy building",
   "sites & apps. My focus is React (Next.js)."
 ]
